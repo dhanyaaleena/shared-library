@@ -16,6 +16,6 @@ def call() {
 	}
 	println(changeString)
 	def change= new org.ChangedFiles()
-	return change.changed_files()
+	return change()
   }
   return this
