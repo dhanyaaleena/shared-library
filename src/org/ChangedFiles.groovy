@@ -1,3 +1,5 @@
+package org.ChangedFiles
+
 class ChangedFiles{
 
 def changed_files() {
