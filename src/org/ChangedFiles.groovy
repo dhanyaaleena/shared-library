@@ -7,5 +7,5 @@ def build = thr?.executable;
 
 def changeSet= build.getChangeSet();
 
-return changeSet.getItems();
+return changeSet.getItems()
 }
