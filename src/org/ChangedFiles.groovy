@@ -1,4 +1,4 @@
-package org.ChangedFiles
+package org
 
 class ChangedFiles{
 
