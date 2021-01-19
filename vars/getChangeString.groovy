@@ -15,7 +15,7 @@ def call() {
 	   changeString = "No changes"
 	}
 	println(changeString)
-	def change= new org.ChangedFiles()
+	def change= new ChangedFiles()
 	return change.changed_files()
   }
   return this
