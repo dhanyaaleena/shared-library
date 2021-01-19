@@ -1,4 +1,4 @@
-class org.ChangedFiles{
+class ChangedFiles{
 
 def changed_files() {
 	def changes = "Changes:\n"
