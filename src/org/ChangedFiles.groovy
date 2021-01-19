@@ -16,5 +16,4 @@ def changed_files() {
 	}
 	return changes
   }
-  return this
 }
