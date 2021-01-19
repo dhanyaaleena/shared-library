@@ -1,4 +1,3 @@
-import src.org.ChangedFiles
 
 def call() {
 	MAX_MSG_LEN = 512
@@ -16,6 +15,5 @@ def call() {
 	   changeString = "No changes"
 	}
 	println(changeString)
-	ChangedFiles()
   }
   return this
