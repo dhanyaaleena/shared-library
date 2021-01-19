@@ -1,3 +1,5 @@
+import src.org.ChangedFiles
+
 def call() {
 	MAX_MSG_LEN = 512
 	def changeString = ""
