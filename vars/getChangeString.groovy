@@ -1,4 +1,4 @@
-def String call() {
+def call() {
 	MAX_MSG_LEN = 512
 	def changeString = ""
 	def changeLogSets = currentBuild.changeSets
@@ -13,6 +13,6 @@ def String call() {
 	if (!changeString) {
 	   changeString = "No changes"
 	}
-	return changeString
+	println(changeString)
   }
   return this
