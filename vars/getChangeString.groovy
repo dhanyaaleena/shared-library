@@ -14,6 +14,6 @@ def call() {
 	   changeString = "No changes"
 	}
 	println(changeString)
-	changed_files()
+	ChangedFiles()
   }
   return this
