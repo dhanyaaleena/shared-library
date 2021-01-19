@@ -1,3 +1,5 @@
+class ChangedFiles{
+
 def changed_files() {
 	def changes = "Changes:\n"
 	build = currentBuild
@@ -15,3 +17,4 @@ def changed_files() {
 	return changes
   }
   return this
+}
